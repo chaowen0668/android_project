@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!-- 
+    <HorizontalScrollView android:id="@+id/HorizontalScrollView01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1" android:fillViewport="true">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="fill_parent" android:layout_width="fill_parent"><ListView android:id="@+id/listView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+</ListView></LinearLayout>
+</HorizontalScrollView>
+-->
+    <ListView android:layout_width="fill_parent" android:id="@+id/listView" android:layout_height="fill_parent" android:layout_weight="1"></ListView>
+
+
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="0" android:text="导入" android:id="@+id/btnImport"></Button>
+</LinearLayout>
+ 
