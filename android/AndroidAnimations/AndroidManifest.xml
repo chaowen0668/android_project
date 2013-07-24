@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.androidanimations"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.chaowen.androidanimations.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chaowen.androidanimations.FadeInActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.FadeOutActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.CrossfadeActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.BlinkActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.ZoomInActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.ZoomOutActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.RotateActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.MoveActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.SlideUpActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.SlideDownActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.BounceActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.SequentialActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.chaowen.androidanimations.TogetherActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
