@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical"
+    android:paddingBottom="10dip" >
+
+    <TextView
+        android:id="@+id/txtDialogTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:background="#106184"
+        android:gravity="center"
+        android:text="请选择类型"
+        android:textColor="#ffffff"
+        android:textSize="24dip" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtAddTel"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/btn_style2"
+                android:gravity="center"
+                android:text="电   话"
+                android:textColor="#000000"
+                android:textSize="22dip" />
+
+            <TextView
+                android:id="@+id/txtAddEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/btn_style2"
+                android:gravity="center"
+                android:text="邮   箱"
+                android:textColor="#000000"
+                android:textSize="22dip" />
+
+            <TextView
+                android:id="@+id/txtAddIM"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/btn_style2"
+                android:gravity="center"
+                android:text="I   M"
+                android:textColor="#000000"
+                android:textSize="22dip" />
+
+            <TextView
+                android:id="@+id/txtAddAdress"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/btn_style2"
+                android:gravity="center"
+                android:text="住   址"
+                android:textColor="#000000"
+                android:textSize="22dip" />
+
+            <TextView
+                android:id="@+id/txtAddCompany"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/btn_style2"
+                android:gravity="center"
+                android:text="公   司"
+                android:textColor="#000000"
+                android:textSize="22dip" />
+
+            <TextView
+                android:id="@+id/txtAddNickname"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/btn_style2"
+                android:gravity="center"
+                android:text="昵   称"
+                android:textColor="#000000"
+                android:textSize="22dip" />
+
+            <TextView
+                android:id="@+id/txtAddBirthday"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/btn_style2"
+                android:gravity="center"
+                android:text="生   日"
+                android:textColor="#000000"
+                android:textSize="22dip" />
+
+            <TextView
+                android:id="@+id/txtAddNote"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/btn_style2"
+                android:gravity="center"
+                android:text="备   注"
+                android:textColor="#000000"
+                android:textSize="22dip" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
