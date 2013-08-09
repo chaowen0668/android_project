@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">切换按钮</string>
+    <string name="title_activity_main">切换按钮例子</string>
+	<string name="dark">切换深色主题</string>
+	<string name="light">切换浅色主题</string>
+	<string name="cheer">爱我还是他:</string>
+	<string name="left">左</string>
+	<string name="right">右</string>
+	<string name="woohoo">爱我</string>
+	<string name="yeah">不爱他</string>
+	<string name="on">开</string>
+	<string name="off">关</string>
+	<string name="default_checked">选我还是他:</string>
+	<string name="checked">选我</string>
+	<string name="unchecked">不选他</string>
+					
+</resources>
