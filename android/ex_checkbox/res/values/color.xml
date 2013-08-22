@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background">#ffeff3f6</color>
+    <color name="youdao_title_bg">#318ece</color>
+    <color name="orange">#ffEf4f1f</color>
+    <color name="black">#000000</color>
+    <color name="listitem_transparent">#00000000</color>
+    <color name="listitem_black">#ff000000</color>
+    <!-- home -->
+    <color name="new_note_image_bg">#ffebedef</color>
+    <color name="divider_green">#ffebedef</color>
+    <color name="text_light_grey">#ff666666</color>
+    <color name="white">#ffffffff</color>
+
+    <!-- news add -->
+    <color name="navpage">#ffe1e0de</color>
+    <color name="plugin_mail_grey">#ff909090</color>
+
+    <!-- onschool -->
+    <color name="account_child_income">#ff8d2626</color>
+    <color name="account_child_expend">#ff2c5e00</color>
+    <color name="report_detail_title">#ff442600</color>
+    <color name="report_detail_info">#ff999999</color>
+
+    <!-- teach manager -->
+    <color name="bill_item_bg">#ffe3bf9b</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- user_data -->
+    <color name="user_data_background">#fff5f5f5</color>
+    <color name="user_avatar_no_photo_text">#ffb37b2d</color>
+    <color name="user_avatar_divider">#ff202224</color>
+    <color name="list_tab">#ff666666</color>
+    <color name="styled_item_background_color">#ddb</color>
+    <color name="login_bg">#ff338bcb</color>
+
+    
+    <!-- login -->
+    <color name="login_divider">#ffa8b2ba</color>
+    <color name="bg_blue">#ff41a6d4</color>
+</resources>
