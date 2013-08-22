@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Beauty Clock</string>
+	<string name="share_widget_name">Beauty Clock Wallpaper Share Widget</string>
+	<string name="share_widget_text">Share this wallpaper</string>
+	<string name="share_picture_btn_text">Share it !</string>
+	<string name="share_picture_failed_text">Error loading picture.. please try again.</string>
+	<string name="share_picture_msg_text">I love this wallpaper !</string>
+	<string name="share_picture_subject_text">I love this wallpaper !</string>
+	<string name="share_picture_title_text">I love this wallpaper !</string>
+	
+	<string name="bc_main_help_text">This is a widget, \n\n<b>To use it:</b> \n1. Press menu key in home screen \n2. Select Add \n3. Select widgets \n4. Choose Beauty Clock.\n\n<b>To setup widget:</b>\npress menu key here.\n\n<b>To bell on every hour:</b>\n1. Enable this feature in settings.\n2. Create BeautyClock\\bell directory in your sdcard. \n3. Put bell00.mp3 ~ bell23.mp3 in that directory.\n\n<b>To use your own tokei:</b>\n1. Create BeautyClock\\pic\\custom directory in your sdcard.\n2. Put hhmm.jpg under that directory. (hh = 00 ~ 23 and mm = 00 ~ 59, which presents every minute.)</string>
+	<string name="bc_settings_menu_text">Beauty Clock Settings</string>
+	
+	<string name="bc_dead_live_wallpaper_section_text">For devices not supporting live wallpaper</string>
+	<string name="bc_enable_deadwallpaper_title_text">Enable Dead Wallpaper</string>
+	<string name="bc_enable_deadwallpaper_summary_text">Imitated Live Wallpaper. DO NOT use if device supports live wallpaper</string>
+
+	<string name="bc_general_section_text">General settings</string>
+	<string name="bc_choose_picture_source_text">Choose image source</string>
+	
+	<string name="bc_fetch_larger_picture_title_text">Use larger picture</string>
+	<string name="bc_fetch_larger_picture_summary_text">If web site provides</string>
+
+	<string name="bc_fit_screen_title_text">Fit the screen</string>
+	<string name="bc_fit_screen_summary_text">Scale the picture to full screen</string>
+	
+	<string name="bc_no_scroll_title_text">No scrolling</string>
+	<string name="bc_no_scroll_summary_text">Always show center part of the picture</string>
+
+	<string name="bc_anotherway_update_widget_title_text">New way update widget</string>
+	<string name="bc_anotherway_update_widget_summary_text">If there\'s problem showing picture with the widget, try this option</string>
+	    	
+	<string name="bc_network_section_text">Network settings</string>
+	<string name="bc_bg_fetch_frequency_title_text">Background fetch frequency</string>
+	<string name="bc_bg_fetch_frequency_summary_text">Interval between network connection</string>
+	
+	<string name="bc_fetch_when_screen_off_title_text">Fetch picture when screen is off</string>
+	<string name="bc_fetch_when_screen_off_summary_text">This will reduce your battery time</string>
+
+	<string name="bc_advance_section_text">Advance settings</string>	
+	<string name="bc_save_picture_title_text">Save picture</string>
+	<string name="bc_save_picture_summary_text">Save a copy in the SD card</string>
+	
+	<string name="bc_ring_on_hour_title_text">Ring on every hour</string>
+	<string name="bc_ring_on_hour_summary_text">Be sure you have the bells</string>
+	
+	<string-array name="bc_picture_source_entries_secret">
+		<item>Arthur</item>
+		<item>ClockM</item>
+		<item>Bijin-tokei (japan)</item>
+		<item>Bijin-tokei (韓国)</item>
+		<item>Bijin-tokei (香港)</item>
+		<item>Bijin-tokei (新潟)</item>
+		<item>Bijin-tokei (鹿児島)</item>
+		<item>Bijin-tokei (名古屋)</item>
+		<item>Bijin-tokei (香川)</item>
+		<item>Bijin-tokei (岡山)</item>
+		<item>Bijin-tokei (福岡)</item>
+		<item>Bijin-tokei (金沢)</item>
+		<item>Bijin-tokei (京都)</item>
+		<item>Bijin-tokei (仙台)</item>
+		<item>Bijin-tokei (北海道)</item>
+		<item>Bijin-tokei (早稲田)</item>
+		<item>Bijin-tokei (GAL)</item>
+		<item>Bijin-tokei (サーキット)</item>
+		<item>Binan-tokei</item>
+		<item>Lovely Time II</item>
+		<item>Wretch</item>
+		<item>Your own tokei</item>
+ 		<item>AV tokei</item>
+	</string-array>
+
+	<string-array name="bc_picture_source_entries">
+		<item>Arthur</item>
+		<item>ClockM</item>
+		<item>Bijin-tokei (japan)</item>
+		<item>Bijin-tokei (韓国)</item>
+		<item>Bijin-tokei (香港)</item>
+		<item>Bijin-tokei (新潟)</item>
+		<item>Bijin-tokei (鹿児島)</item>
+		<item>Bijin-tokei (名古屋)</item>
+		<item>Bijin-tokei (香川)</item>
+		<item>Bijin-tokei (岡山)</item>
+		<item>Bijin-tokei (福岡)</item>
+		<item>Bijin-tokei (金沢)</item>
+		<item>Bijin-tokei (京都)</item>
+		<item>Bijin-tokei (仙台)</item>
+		<item>Bijin-tokei (北海道)</item>
+		<item>Bijin-tokei (早稲田)</item>
+		<item>Bijin-tokei (GAL)</item>
+		<item>Bijin-tokei (サーキット)</item>
+		<item>Binan-tokei</item>
+		<item>Lovely Time II</item>
+		<item>Wretch</item>
+		<item>Your own tokei</item>
+	</string-array>
+
+	<string-array name="bc_picture_source_entries_orig">
+		<item>Arthur</item>
+		<item>ClockM</item>
+		<item>Bijin-tokei (japan)</item>
+		<item>Bijin-tokei (korea)</item>
+		<item>Bijin-tokei (hk)</item>
+		<item>Bijin-tokei (niigata)</item>
+		<item>Bijin-tokei (kagoshima)</item>
+		<item>Bijin-tokei (nagoya)</item>
+		<item>Bijin-tokei (kagawa)</item>
+		<item>Bijin-tokei (okayama)</item>
+		<item>Bijin-tokei (fukuoka)</item>
+		<item>Bijin-tokei (kanazawa)</item>
+		<item>Bijin-tokei (kyoto)</item>
+		<item>Bijin-tokei (sendai)</item>
+		<item>Bijin-tokei (hokkaido)</item>
+		<item>Bijin-tokei (wasedastyle)</item>
+		<item>Bijin-tokei (GAL)</item>
+		<item>Bijin-tokei (circuit)</item>
+		<item>Binan-tokei</item>
+		<item>Lovely Time II</item>
+		<item>Wretch</item>
+		<item>Your own tokei</item>
+	</string-array>
+	
+	<string-array name="bc_picture_source_entry_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>	
+		<item>5</item>	
+		<item>6</item>	
+		<item>7</item>	
+		<item>8</item>	
+		<item>9</item>	
+		<item>10</item>	
+		<item>11</item>	
+		<item>12</item>	
+		<item>13</item>	
+		<item>14</item>	
+		<item>15</item>	
+		<item>16</item>	
+		<item>17</item>	
+		<item>18</item>	
+		<item>19</item>	
+		<item>20</item>	
+		<item>98</item>	
+		<item>99</item>	
+	</string-array>
+	
+	<string-array name="bc_fetch_frequency_entries">
+		<item>10 minutes</item>
+		<item>20 minutes</item>
+		<item>30 minutes</item>	
+		<item>40 minutes</item>	
+		<item>50 minutes</item>	
+		<item>1 hour</item>	
+	</string-array>
+
+	<string-array name="bc_fetch_frequency_entry_values">
+		<item>15</item>
+		<item>30</item>
+		<item>45</item>
+		<item>60</item>
+		<item>75</item>	
+		<item>90</item>	
+	</string-array>
+
+</resources>

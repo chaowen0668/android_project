@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/downloadList_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <TextView
+        android:id="@+id/downloadList_title"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="#FFCCCCCC"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="正在下载"
+        android:textSize="12sp" />
+
+</FrameLayout>

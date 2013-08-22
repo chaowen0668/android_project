@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/downloadlist_cell1_cb"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="1px"
+        android:layout_height="55dp"
+        android:layout_gravity="center_vertical"
+        android:background="#99999999" />
+
+    <ImageView
+        android:id="@+id/downloadlist_cell1_iv"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/downloadlist_cell1_title"
+            android:layout_width="fill_parent"
+            android:layout_height="31dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center_vertical"
+            android:text="这里是标题"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/downloadlist_cell1_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/downloadlist_cell1_size"
+            android:layout_width="fill_parent"
+            android:layout_height="11dp"
+            android:gravity="center_vertical|right"
+            android:text="3.33k/44M"
+            android:textColor="#999999"
+            android:textSize="9sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="1px"
+        android:layout_height="55dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:background="#99999999" />
+
+    <Button
+        android:id="@+id/downloadlist_cell1_btn"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/btn_dl"
+        android:text="下载"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+</LinearLayout>
