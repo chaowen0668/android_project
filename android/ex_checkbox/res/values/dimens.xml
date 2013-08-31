@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+     
+    
+    <!-- home -->
+    <dimen name="common_list_view_left_margin">12.0dip</dimen>
+	 <dimen name="green_divider">1.0px</dimen>
+	 <dimen name="summary_title_text_size">17.0sp</dimen>
+	 
+	 
+	 <!-- 消息 中心 -->
+	  <dimen name="BasicTextSize">15.0dip</dimen>
+	  
+	  <!-- 运营分析 -->
+	  <dimen name="gridview_itemsize">100dp</dimen>
+	 
+	 
+	  <dimen name="dimen_1_dip">1.0dip</dimen>
+	  <dimen name="dimen_2_dip">2.0dip</dimen>
+	   <dimen name="dimen_5_dip">5.0dip</dimen>
+	   <dimen name="dimen_9_dip">9.0dip</dimen>
+	   <dimen name="dimen_10_dip">10.0dip</dimen>
+	   <dimen name="dimen_11_dip">11.0dip</dimen>
+	   <dimen name="dimen_12_dip">12.0dip</dimen>
+	   <dimen name="dimen_14_dip">14.0dip</dimen>
+	   <dimen name="dimen_15_dip">15.0dip</dimen>
+	   <dimen name="dimen_16_dip">16.0dip</dimen>
+	   <dimen name="dimen_20_dip">20.0dip</dimen>
+	   <dimen name="dimen_23_dip">23.0dip</dimen>
+	   <dimen name="dimen_27_dip">27.0dip</dimen>
+	   <dimen name="dimen_44_dip">44.0dip</dimen>
+	   <dimen name="dimen_45_dip">45.0dip</dimen>
+	   <dimen name="dimen_46_dip">46.0dip</dimen>
+	   <dimen name="dimen_48_dip">48.0dip</dimen>
+	   <dimen name="dimen_53_dip">53.0dip</dimen>
+	   <dimen name="dimen_54_dip">54.0dip</dimen>
+	   
+	   <dimen name="dimen_296_dip">296.0dip</dimen>
+	   
+	   
+</resources>

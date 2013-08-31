@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:padding="20dip">
+        
+        <TextView
+            android:id="@+id/droptitle"
+            style="?attr/spinnerDropDownItemStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true" 
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20_dip"/>
+
+</LinearLayout>
