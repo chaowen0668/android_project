@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">AutoCompleteTextViewDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">AutoCompleteTextViewDemo</string>
+    <string name="str_hnt_autocomplete">Enter Country Name</string>
+
+</resources>
