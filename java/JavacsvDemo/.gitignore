@@ -1,0 +1,7 @@
+build
+bin
+deploy
+.settings
+.project
+.classpath
+target
