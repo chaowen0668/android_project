@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:background="@color/white" android:orientation="vertical" android:padding="@dimen/common_list_view_left_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout style="@style/button_row">
+            <LinearLayout android:gravity="center" android:id="@+id/create_text_note" android:background="@drawable/home_button_bg_selector" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <include layout="@layout/home_text_note" />
+            </LinearLayout>
+            <include layout="@drawable/new_note_v_divider" />
+            <LinearLayout android:gravity="center" android:id="@+id/create_camera_note" android:background="@drawable/home_button_bg_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <include layout="@layout/home_camera_note" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@drawable/new_note_h_divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout style="@style/button_row">
+            <LinearLayout android:gravity="center" android:id="@+id/create_handwrite_note" android:background="@drawable/home_button_bg_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <include layout="@layout/home_handwrite_note" />
+            </LinearLayout>
+            <include layout="@drawable/new_note_v_divider" />
+            <LinearLayout android:gravity="center" android:id="@+id/create_record_note" android:background="@drawable/home_button_bg_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <include layout="@layout/home_record_note" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@drawable/new_note_h_divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout style="@style/button_row">
+            <LinearLayout android:gravity="center" android:id="@+id/create_gallary_note" android:background="@drawable/home_button_bg_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <include layout="@layout/home_gallery_note" />
+            </LinearLayout>
+            <include layout="@drawable/new_note_v_divider" />
+            <LinearLayout android:gravity="center" android:id="@+id/create_doodle_note" android:background="@drawable/home_button_bg_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <include layout="@layout/home_doodle_note" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@drawable/new_note_h_divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout style="@style/button_row">
+            <LinearLayout android:gravity="center" android:id="@+id/create_to_do_note" android:background="@drawable/home_button_bg_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <include layout="@layout/home_to_do_note" />
+            </LinearLayout>
+            <include layout="@drawable/new_note_v_divider" />
+            <LinearLayout android:gravity="center" android:id="@+id/open_support_app" android:background="@drawable/home_button_bg_selector" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <include layout="@layout/home_more_note_types" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

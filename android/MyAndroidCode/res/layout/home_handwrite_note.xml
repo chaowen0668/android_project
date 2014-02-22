@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/large_button_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/new_info_bg" />
+        <ImageView android:background="@drawable/home_handwrite_note" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@+id/new_tag_handwrite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/new_info_bg" />
+    </LinearLayout>
+    <TextView android:text="@string/handwrite_note" style="@style/large_text_item" />
+</LinearLayout>

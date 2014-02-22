@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+     <!-- 基于服务的照片 -->
+     <style name="ContentOverlay" parent="android:style/Theme.Dialog">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:backgroundDimEnabled">false</item>
+	</style>
+	
+     
+     <!-- 有道 -->
+   <style name="button_row">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minHeight">100.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+     <style name="large_button_item">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">100.0dip</item>
+        <item name="android:layout_height">100.0dip</item>
+    </style>
+    <style name="large_text_item">
+        <item name="android:textSize">@dimen/summary_title_text_size</item>
+        <item name="android:textColor">@color/text_light_grey</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    
+      <style name="Transparent" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/click</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+     
+</resources>

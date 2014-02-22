@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/large_button_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/home_camera_note" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:text="@string/camera_note" style="@style/large_text_item" />
+</LinearLayout>
