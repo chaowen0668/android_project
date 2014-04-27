@@ -35,9 +35,13 @@ public class UIMain extends Activity {
 						Intent intent2 = new Intent(UIMain.this,PopWindowDemo.class);
 						startActivity(intent2);
 						break;
-					case 2://2.popupwindow的基本使用
+					case 2://3.popupwindow的基本使用
 						Intent intent3 = new Intent(UIMain.this,PopWindowDemo2.class);
 						startActivity(intent3);
+						break;
+					case 3://4.自定义progressDialog
+						Intent intent4 = new Intent(UIMain.this,CustomProgressDialogDemo.class);
+						startActivity(intent4);
 						break;
 					default:
 						break;
@@ -55,6 +59,7 @@ public class UIMain extends Activity {
 	    	 data.add("1.仿有道 的菜单");
 	    	 data.add("2.popupwindow 模拟新浪、腾讯title弹框效果");
 	    	 data.add("3.popupwindow的基本使用");
+	    	 data.add("4.自定义progressDialog");
 	    	 return data;
 	     }
 }
